@@ -63,6 +63,7 @@ extension URL {
 
     var isGIF: Bool {
         pathExtension == "gif"
+        pathExtension == "webp"
     }
 
     func appending(queryItems: [URLQueryItem]) -> URL {
